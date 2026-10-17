@@ -1,0 +1,21 @@
+# Sensitive factory and device backups
+*.bin
+*.img
+*.dump
+*.backup
+*.bak
+*.key
+*.pem
+id_rsa*
+flash_*
+mtd[0-9]*
+backup/
+backups/
+secrets/
+# Build outputs
+bin/
+build_dir/
+staging_dir/
+tmp/
+*.apk
+*.ipk

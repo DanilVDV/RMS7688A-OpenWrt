@@ -19,7 +19,7 @@ cat /proc/mtd
 mkdir -p /tmp/flash-backup
 for n in 0 1 2 3; do
   dd if=/dev/mtd${n} of=/tmp/flash-backup/mtd${n}.bin bs=64k
-done
+ done
 sha256sum /tmp/flash-backup/*.bin
 ```
 
